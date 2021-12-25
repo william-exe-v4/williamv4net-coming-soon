@@ -10,7 +10,7 @@ body{
     position: relative;
 }
 .card{
-    position: absolute;
+    position: fixed;
     border-radius: 32px;
     background: #060621;
     padding: 32px;
@@ -19,10 +19,36 @@ body{
     align-items: center;
     justify-content: center;
     top: 32px;
+    left: 20%;
+    overflow: auto;
+    z-index: 1;
+    margin-left: -(X/2)u;
+    margin-top: -(Y/2)u;
 }
 img{
     width: 128px;
 }
 h1{
     font-family: Comfortaa;
+    color: white;
+}
+p{
+    font-family: Comfortaa;
+    font-size: 14pt;
+    color: #060621;
+    
+}
+.dev{
+    position: fixed;
+    top: 36%;
+    left: 42%;
+}
+.sus{
+    position: fixed;
+    top: 40%;
+    left: 40%;
+    text-align: center;
+}
+code{
+    background-color: #789ad7;
 }
